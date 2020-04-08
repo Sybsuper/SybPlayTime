@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2020 Sybsuper
+ * All Rights Reserved
+ *
+ * Do not use this code without permission of the developer.
+ */
+
 package me.sybsuper.SybPlayTime;
 
 import org.bukkit.Bukkit;
@@ -12,9 +19,11 @@ public class Main extends JavaPlugin {
 	@Override
 	public void onEnable() {
 	}
+
 	public int f(float num) {
 		return (int) Math.floor(num);
 	}
+
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (sender.hasPermission("sybplaytime.get")) {
