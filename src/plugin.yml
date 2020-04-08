@@ -1,0 +1,9 @@
+name: SybPlayTime
+main: me.sybsuper.SybPlayTime.Main
+version: 1.0.0
+author: Sybsuper
+commands:
+  playtime:
+    aliases: [sybplaytime,pt,playt,ptime]
+    permission: sybplaytime.get
+    description: Get a players play time.
